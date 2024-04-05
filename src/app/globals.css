@@ -6,7 +6,12 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
-
+    --brand-gray: "#a4a48f",
+    --brand-gray-darker: "#716f72",
+    --brand-black: "#241d23",
+    --brand-pink: "#c20d9f",
+    --brand-orange: "#df5d34"
+    
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
  
