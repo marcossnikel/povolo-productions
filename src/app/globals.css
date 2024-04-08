@@ -4,6 +4,11 @@
  
 @layer base {
   :root {
+    --brand-green: hsla(115, 62%, 39%, 1);
+    --brand-yellow: hsla(38, 96%, 51%, 1);
+    --brand-green-darker: hsla(106, 26%, 23%, 1);
+    --brand-pink: hsla(312, 84%, 41%, 1);
+    --brand-gray: hsla(225, 2%, 58%, 1);
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --brand-gray: "#a4a48f",
