@@ -1,6 +1,9 @@
 name: Build Project
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build-application:
@@ -13,7 +16,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 21
+
       - name: Install dependencies
+        run: pnpm install
 
       - name: Run development server
         run: pnpm dev
