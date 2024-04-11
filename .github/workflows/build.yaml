@@ -9,11 +9,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v3
         with:
           node-version: 21
-          cache: "npm"
+          cache: "pnpm"
 
-      - run: pnpm ci
-      - run: pnpm dev
-      - run: pnpm build
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run development server
+        run: pnpm dev
+
+      - name: Build project
+        run: pnpm build
