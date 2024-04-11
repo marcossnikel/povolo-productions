@@ -40,7 +40,7 @@ export default function RootLayout({
               Depoimentos
             </a>
             <a href="" className="hover:underline underline-offset-8 ">
-              Contato
+              Contatos
             </a>
           </div>
         </nav>
