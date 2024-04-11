@@ -13,9 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 21
-
       - name: Install dependencies
-        run: pnpm install
 
       - name: Run development server
         run: pnpm dev
