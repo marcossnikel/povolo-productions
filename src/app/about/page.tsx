@@ -1,4 +1,4 @@
-export default function About() {
+export default function AboutPage() {
   return (
     <p>
       Buscando sempre a melhoria contínua, e agora com um novo “Brasão”. O
