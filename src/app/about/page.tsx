@@ -1,4 +1,4 @@
-export async function About() {
+export default function About() {
   return (
     <p>
       Buscando sempre a melhoria contínua, e agora com um novo “Brasão”. O
@@ -18,5 +18,3 @@ export async function About() {
     </p>
   );
 }
-
-export default About;
