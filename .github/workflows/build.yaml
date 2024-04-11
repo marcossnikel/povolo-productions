@@ -6,14 +6,14 @@ jobs:
   build-application:
     name: Build application
     runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
+    steps:
+      - uses: actions/checkout@v3
 
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 21
-        cache: "npm"
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 21
+          cache: "npm"
 
-    - run: npm ci
-    - run: npm run dev
-    - run: npm run build
+      - run: npm ci
+      - run: npm run dev
+      - run: npm run build
