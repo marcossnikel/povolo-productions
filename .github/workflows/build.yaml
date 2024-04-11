@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 21
       - name: Install dependencies
-        run: pnpm install
 
       - name: Run development server
         run: pnpm dev
